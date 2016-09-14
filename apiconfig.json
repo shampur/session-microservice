@@ -1,0 +1,159 @@
+[
+  {
+    "api": "/api/v1/networks/",
+    "methods": ["GET", "POST", "PUT", "DELETE"],
+    "destination": "http://localhost:9999",
+    "authorization": false
+  },
+  {
+    "api": "/api/v1/inspect/networks/",
+    "methods": ["GET"],
+    "destination": "http://localhost:9999",
+    "authorization": false
+  },
+  {
+    "api": "/api/v1/inspect/serviceLBs/",
+    "methods": ["GET"],
+    "destination": "http://localhost:9999",
+    "authorization": false
+  },
+  {
+    "api": "/api/v1/rules/",
+    "methods": ["GET", "POST", "PUT", "DELETE"],
+    "destination": "http://localhost:9999",
+    "authorization": false
+  },
+  {
+    "api": "/api/v1/policys/",
+    "methods": ["GET", "POST", "PUT", "DELETE"],
+    "destination": "http://localhost:9999",
+    "authorization": false
+  },
+  {
+    "api": "/api/v1/endpointGroups/",
+    "methods": ["GET", "POST", "PUT", "DELETE"],
+    "destination": "http://localhost:9999",
+    "authorization": false
+  },
+  {
+    "api": "/api/v1/serviceLBs/",
+    "methods": ["GET", "POST", "PUT", "DELETE"],
+    "destination": "http://localhost:9999",
+    "authorization": false
+  },
+  {
+    "api": "/api/v1/tenants/",
+    "methods": ["GET", "POST", "PUT", "DELETE"],
+    "destination": "http://localhost:9999",
+    "authorization": false
+  },
+  {
+    "api": "/api/v1/globals/",
+    "methods": ["GET", "POST", "PUT", "DELETE"],
+    "destination": "http://localhost:9999",
+    "authorization": false
+  },
+  {
+    "api": "/api/v1/netprofiles/",
+    "methods": ["GET", "POST", "DELETE", "PUT"],
+    "destination": "http://localhost:9999",
+    "authorization": false
+  },
+  {
+    "api": "/api/v1/Bgps/",
+    "methods": ["GET", "POST", "DELETE", "PUT"],
+    "destination": "http://localhost:9999",
+    "authorization": false
+  },
+  {
+    "api": "/api/v1/inspect/Bgps/",
+    "methods": ["GET"],
+    "destination": "http://localhost:9999",
+    "authorization": false
+  },
+  {
+    "api": "/volumes/",
+    "methods": ["GET", "POST", "DELETE"],
+    "destination": "http://contiv150.insieme.local:9005",
+    "authorization": false
+  },
+  {
+    "api": "/uses/mounts/",
+    "methods": ["GET"],
+    "destination": "http://contiv150.insieme.local:9005",
+    "authorization": false
+  },
+  {
+    "api": "/snapshots/",
+    "methods": ["GET", "POST"],
+    "destination": "http://contiv150.insieme.local:9005",
+    "authorization": false
+  },
+  {
+    "api": "/policies/",
+    "methods": ["GET", "POST", "DELETE"],
+    "destination": "http://contiv150.insieme.local:9005",
+    "authorization": false
+  },
+  {
+    "api": "/global/",
+    "methods": ["GET", "POST"],
+    "destination": "http://contiv150.insieme.local:9005",
+    "authorization": false
+  },
+  {
+    "api": "/info/nodes",
+    "methods": ["GET"],
+    "destination": "http://contiv150.insieme.local:9007",
+    "authorization": false
+  },
+  {
+    "api": "/commission/nodes",
+    "methods": ["POST"],
+    "destination": "http://contiv150.insieme.local:9007",
+    "authorization": false
+  },
+  {
+    "api": "/decommission/nodes",
+    "methods": ["POST"],
+    "destination": "http://contiv150.insieme.local:9007",
+    "authorization": false
+  },
+  {
+    "api": "/maintenance/nodes",
+    "methods": ["POST"],
+    "destination": "http://contiv150.insieme.local:9007",
+    "authorization": false
+  },
+  {
+    "api": "/discover/nodes",
+    "methods": ["POST"],
+    "destination": "http://contiv150.insieme.local:9007",
+    "authorization": false
+  },
+  {
+    "api": "/info/job/active",
+    "methods": ["GET"],
+    "destination": "http://contiv150.insieme.local:9007",
+    "authorization": false
+  },
+  {
+    "api": "/info/job/last",
+    "methods": ["GET"],
+    "destination": "http://contiv150.insieme.local:9007",
+    "authorization": false
+  },
+  {
+    "api": "/info/globals",
+    "methods": ["GET"],
+    "destination": "http://contiv150.insieme.local:9007",
+    "authorization": false
+  },
+  {
+    "api": "/globals",
+    "methods": ["POST"],
+    "destination": "http://contiv150.insieme.local:9007",
+    "authorization": false
+  }
+
+]

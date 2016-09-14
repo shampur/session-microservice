@@ -1,0 +1,22 @@
+[
+  {
+    "username": "contiv-admin1",
+    "password": "admin1",
+    "active": true
+  },
+  {
+    "username": "contiv-admin2",
+    "password": "admin2",
+    "active": true
+  },
+  {
+    "username": "contiv-admin3",
+    "password": "admin3",
+    "active": true
+  },
+  {
+    "username": "contiv-admin4",
+    "password": "admin4",
+    "active": true
+  }
+]
